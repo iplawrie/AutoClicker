@@ -77,6 +77,7 @@ def Start():
     except Exception as e:
         print(e)
     finally:
+        sleep(0.5)
         window.showNormal()
 
 
